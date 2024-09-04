@@ -8,7 +8,7 @@ type Item = {
   preco: string | string[];
 };
 
-type Categoria = 'hamburguer' | 'hamburguerArtesanal' | 'peitoDeFrango' | 'lombo' | 'contraFile' | 'daModa' | 'minis' | 'porcoes' | 'outros' | 'opcionais';
+type Categoria = 'hamburguer' | 'hamburguerArtesanal' | 'peitoDeFrango' | 'lombo' | 'contraFile' | 'daModa' | 'minis' | 'porções' | 'outros' | 'opcionais';
 
 type Cardapio = {
   [key in Categoria]: Item[];
@@ -60,7 +60,7 @@ export default function Cardapio() {
       { nome: "NÚMERO: 24", descricao: "PÃO DE HAMBÚRGUER, CONTRA FILE, MUSSARELA, ALFACE E TOMATE.", preco: "R$ 22,00"},
  
     ],
-    porcoes: [
+    porções: [
       { nome: "NÚMERO 25: LOMBO", descricao: "INTEIRA | MEIA", preco: ["R$40,00  |" , "|  R$28,00"] },
       { nome: "NÚMERO 26: PEITO DE FRANGO", descricao: "INTEIRA | MEIA", preco: ["R$40,00  |" , "|  R$28,00"] },
       { nome: "NÚMERO 27: CONTRA FILÉ", descricao: "INTEIRA | MEIA", preco: ["R$57,00  |" , "|  R$39,00"] },
@@ -94,7 +94,7 @@ export default function Cardapio() {
     contraFile: false,
     daModa: false,
     minis: false,
-    porcoes: false,
+    porções: false,
     outros: false,
     opcionais: false,
   });
@@ -114,7 +114,7 @@ export default function Cardapio() {
     contraFile: "/images/contrafile.png",
     daModa: "/images/daModa.png",
     minis: "/images/miniSanduiche.png",
-    porcoes: "/images/porcoes.png",
+    porções: "/images/porcoes.png",
     outros: "/images/outros.png",
     opcionais: "/images/opcionais.png",
   };
