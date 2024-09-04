@@ -135,7 +135,7 @@ export default function Cardapio() {
               </button>
             </div>
             {visibleCategories[categoria as Categoria] && (
-              <div className="mt-4">
+              <div className="mt-4 text-black">
                 {cardapio[categoria as Categoria].map((item, itemIndex) => (
                   <div
                     key={itemIndex}
