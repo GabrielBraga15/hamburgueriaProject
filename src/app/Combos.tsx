@@ -33,7 +33,7 @@ export default function Combos() {
         <div className="flex justify-between items-center mb-4">
           <div className="flex-1 px-4 text-left">
             <h3 className="text-2xl font-bold text-black">Combo X-TUDO</h3>
-            <p className="text-xl text-black"> X-TUDO E 1 REFRIGERANTE 1.5L</p>
+            <p className="text-xl text-black">2 X-TUDO E 1 REFRIGERANTE 1.5L</p>
             <p className="text-xl font-bold text-black">R$ 49,99</p>
           </div>
           <div className="w-24 h-24 bg-amber-300 rounded-lg"></div> {/* Placeholder para imagem */}
